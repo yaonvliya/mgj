@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,input,select,textarea,td{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑";
+}
+ul,ol,li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:0;
+	display:block;
+}
+html,body{
+	height: 100%;
+}
+header{
+	width:100%;
+	height:29.3125rem;
+	/* background: #FF0000; */
+	
+	padding-top:80px;
+}
+.sub{
+	font-weight:10;
+	font-size:30px;
+	margin-left: 155px;
+}
+
+.weixins{
+	width:15.6875rem;
+	height:3.25rem;
+	background: #09bb07;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	margin-left: 66px;
+	margin-top: 40px;
+}
+.weixins img{
+	margin-right: 10px;
+    margin-top: 5px;
+}
+.xian{
+	width:20px;
+	height:20px;
+	border-bottom:1px solid #999999;
+	margin-left: 178px;
+    margin-top: 54px;
+}
+.weixins span{
+	color:white;
+	font-size: 14px;
+}
+.other{
+	color:#999999;
+	font-size: 14px;
+	margin-top: 39px;
+	margin-left: 153px;
+}
+.others{
+	display: flex;
+	width:15.6875rem;
+	height:88px;
+	/* background: #09bb07; */
+	margin-left: 66px;
+	margin-top: 43px;
+}
+.others ul{
+	display: flex;
+	
+}
+.others li {
+	margin:10px 15px 0 21px;
+	text-align: center;
+}
+.others span{
+	color:#999999;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.others img{
+	margin-bottom: 20px;
+}
+
